@@ -1,6 +1,5 @@
 <%@page isErrorPage="true" %> <!-- indicamos que es un jsp que gestiona errores -->
 <%@page import="java.io.*" %> <!-- Para poder usar PrintWriter -->
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
