@@ -1,3 +1,5 @@
+<!-- Delegamos la gestion de las excepciones del JSP a gestionErrores.jsp -->
+<%@page errorPage="WEB-INF/gestionErrores.jsp" %>
 <!-- Uso de directiva para importar clases en el JSP -->
 <%@page import="utils.Conversiones,java.util.Date"%>
 <!-- Uso de directiva para especificar el tipo de respuesta -->
